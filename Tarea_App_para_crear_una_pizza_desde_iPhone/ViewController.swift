@@ -9,17 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var titulo: UILabel!
+    @IBOutlet weak var bienvenido: UILabel!
+    
+    @IBOutlet weak var imagen: UIImageView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+        
+        titulo.font = UIFont (name: "HelveticaNeue-UltraLight", size: 20)
+        
+        titulo.textAlignment = .Center
+        
+        bienvenido.font = UIFont (name: "HelveticaNeue-UltraLight", size: 20)
+        self.imagen.image = UIImage(named: "pizza")
     }
-
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
