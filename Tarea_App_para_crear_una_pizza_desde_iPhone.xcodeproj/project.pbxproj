@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		9613ED111CCDE48500ADD070 /* Vista_seleccion_ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vista_seleccion_ingredientes.swift; sourceTree = "<group>"; };
-		9625001B1CCD97A5004F562F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../borrar/borrar/Assets.xcassets; sourceTree = "<group>"; };
+		9625001B1CCD97A5004F562F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9625FFC91CCC68CA004F562F /* Tarea_App_para_crear_una_pizza_desde_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea_App_para_crear_una_pizza_desde_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9625FFCC1CCC68CB004F562F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9625FFCE1CCC68CB004F562F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };

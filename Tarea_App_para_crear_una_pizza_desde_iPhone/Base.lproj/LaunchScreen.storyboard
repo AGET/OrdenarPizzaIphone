@@ -16,7 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cargando aplicacion ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lte-7F-rbs">
+                                <rect key="frame" x="152" y="100" width="297" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="l98-a7-3Gt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="Tve-Kr-avE">
+                                <rect key="frame" x="183" y="183" width="234" height="233"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="234" id="VRB-BA-Uu4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lte-7F-rbs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5vM-yc-1hY"/>
+                            <constraint firstItem="lte-7F-rbs" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="PBh-H1-ag6"/>
+                            <constraint firstItem="Tve-Kr-avE" firstAttribute="top" secondItem="lte-7F-rbs" secondAttribute="bottom" constant="47" id="SVy-iU-W5K"/>
+                            <constraint firstItem="Tve-Kr-avE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="SzX-FT-Znm"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Tve-Kr-avE" secondAttribute="bottom" constant="184" id="UMn-O4-Xn7"/>
+                            <constraint firstItem="Tve-Kr-avE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lCV-L3-48q"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +49,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pizza" width="225" height="225"/>
+    </resources>
 </document>
